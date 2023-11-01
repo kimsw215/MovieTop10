@@ -12,5 +12,7 @@ class MovieRankActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = ActivityMovierankBinding.inflate(layoutInflater)
         setContentView(binding.root)
+
+//        println("${BuildConfig.MOVIE_API_KEY}")
     }
 }
