@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Movie Top 10</string>
+
+    <string name="movie_api_key">a685d6f777449a5e8615f9cf6629c2f8</string>
+    <string name="movie_top_10">인기 영화 Top 10</string>
+    <string name="more">더보기</string>
+    <string name="accumulated_people">누적관람수</string>
+    <string name="release_date">개봉일</string>
+</resources>
