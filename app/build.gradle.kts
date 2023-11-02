@@ -24,13 +24,11 @@ android {
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
 
 
-
-
         buildConfigField("String", "MOVIE_API_KEY", getApiKey("movie_api_key"))
         // 프로젝트 내에서 언제든지 사용이 가능한 변수들이다.
         // 타입 - 키 - 값으로 저장된다.
 
-        // manifestPlaceholders = [MOVIE_API_KEY: movie_api_key]
+//         manifestPlaceholders = [MOVIE_API_KEY: movie_api_key]
         // 매니페스트에서 사용이 가능하다. 구글맵 같은 경우가 이에 해당한다.
         // 키 - 값으로 저장된다.
 
